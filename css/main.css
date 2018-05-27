@@ -1,4 +1,4 @@
-/* =================================================================== 
+/* ===================================================================
  *
  *  Glint v1.0 Main Stylesheet
  *  11-20-2017
@@ -22,18 +22,18 @@
  *  # additional components
  *      ## alert box
  *      ## additional typo styles
- *      ## skillbars 
+ *      ## skillbars
  *  # reusable and common theme styles
  *      ## display headings
  *      ## section header
  *      ## slick slider
  *  # header styles
  *      ## header logo
- *      ## main navigation 
- *      ## mobile menu toggle 
- *  # home 
+ *      ## main navigation
+ *      ## mobile menu toggle
+ *  # home
  *      ## home content
- *      ## home social 
+ *      ## home social
  *      ## home animations
  *  # about
  *      ## about stats
@@ -86,7 +86,7 @@ body {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## links
  * ------------------------------------------------------------------- */
 a {
@@ -107,9 +107,9 @@ a:hover, a:active {
 
 /* ===================================================================
  * # typography & general theme styles
- * 
+ *
  * ------------------------------------------------------------------- */
-h1, h2, h3, h4, h5, h6, 
+h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: "montserrat-medium", sans-serif;
     color: #000000;
@@ -327,7 +327,7 @@ hr {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## Lists
  * ------------------------------------------------------------------- */
 ol {
@@ -383,8 +383,11 @@ dd {
     margin: 0 0 0 2rem;
 }
 
+.green {
+    color: #39b54a;
+}
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## responsive video container
  * ------------------------------------------------------------------- */
 .video-container {
@@ -406,7 +409,7 @@ dd {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## floated image
  * ------------------------------------------------------------------- */
 img.pull-right {
@@ -418,7 +421,7 @@ img.pull-left {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## tables
  * ------------------------------------------------------------------- */
 table {
@@ -457,8 +460,8 @@ th:last-child, td:last-child {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## Spacing 
+/* -------------------------------------------------------------------
+ * ## Spacing
  * ------------------------------------------------------------------- */
 button, .btn {
     margin-bottom: 1.2rem;
@@ -486,7 +489,7 @@ form,
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## pace.js styles - minimal
  * ------------------------------------------------------------------- */
 .pace {
@@ -727,7 +730,7 @@ label > .label-text {
     line-height: inherit;
 }
 
-label > input[type="checkbox"], 
+label > input[type="checkbox"],
 label > input[type="radio"] {
     margin: 0;
     position: relative;
@@ -735,7 +738,7 @@ label > input[type="radio"] {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## style placeholder text
  * ------------------------------------------------------------------- */
 ::-webkit-input-placeholder {
@@ -761,7 +764,7 @@ label > input[type="radio"] {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## change autocomplete styles in chrome
  * ------------------------------------------------------------------- */
 input:-webkit-autofill,
@@ -893,13 +896,13 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/* =================================================================== 
+/* ===================================================================
  * # additional components
  *
  * ------------------------------------------------------------------- */
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## alert box
  * ------------------------------------------------------------------- */
 .alert-box {
@@ -944,12 +947,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## additional typo styles 
+/* -------------------------------------------------------------------
+ * ## additional typo styles
  * ------------------------------------------------------------------- */
 
 
-/* drop cap 
+/* drop cap
  * ----------------------------------------------- */
 .drop-cap:first-letter {
     float: left;
@@ -965,7 +968,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/* line definition style 
+/* line definition style
  * ----------------------------------------------- */
 .lining dt, .lining dd {
     display: inline;
@@ -991,7 +994,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/* dictionary definition style 
+/* dictionary definition style
  * ----------------------------------------------- */
 .dictionary-style dt {
     display: inline;
@@ -1013,7 +1016,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/** 
+/**
  * Pull Quotes
  * -----------
  * markup:
@@ -1060,7 +1063,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/** 
+/**
  * Stats Tab
  * ---------
  * markup:
@@ -1113,8 +1116,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## skillbars 
+/* -------------------------------------------------------------------
+ * ## skillbars
  * ------------------------------------------------------------------- */
 .skill-bars {
     list-style: none;
@@ -1209,7 +1212,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## display headings
  * ------------------------------------------------------------------- */
 .display-1 {
@@ -1256,7 +1259,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * display headings
  * ------------------------------------------------------------------- */
@@ -1300,7 +1303,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## section header
  * ------------------------------------------------------------------- */
 .section-header {
@@ -1334,7 +1337,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * section-header
  * ------------------------------------------------------------------- */
@@ -1369,8 +1372,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## slick slider 
+/* -------------------------------------------------------------------
+ * ## slick slider
  * ------------------------------------------------------------------- */
 .slick-slider .slick-slide {
     outline: none;
@@ -1461,14 +1464,14 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     padding: 0;
     outline: 0;
     border: none;
-    width: 80px;
+    width: 150px;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## main navigation 
+/* -------------------------------------------------------------------
+ * ## main navigation
  * ------------------------------------------------------------------- */
 .header-nav {
     background: #0C0C0C;
@@ -1586,7 +1589,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     z-index: 800;
 }
 
-.header-nav__close span::before, 
+.header-nav__close span::before,
 .header-nav__close span::after {
     content: "";
     display: block;
@@ -1637,8 +1640,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## mobile menu toggle 
+/* -------------------------------------------------------------------
+ * ## mobile menu toggle
  * ------------------------------------------------------------------- */
 .header-menu-toggle {
     position: fixed;
@@ -1712,7 +1715,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * header
  * ------------------------------------------------------------------- */
@@ -1737,7 +1740,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 
 /* ===================================================================
- * # home 
+ * # home
  *
  * ------------------------------------------------------------------- */
 .s-home {
@@ -1777,7 +1780,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## home content
  * ------------------------------------------------------------------- */
 .home-content {
@@ -1834,7 +1837,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     margin-right: 0;
 }
 
-.home-content__buttons .btn:hover, 
+.home-content__buttons .btn:hover,
 .home-content__buttons .btn:focus {
     background: #FFFFFF !important;
     color: #000000;
@@ -1884,15 +1887,15 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     display: block;
     width: 2px;
     height: 10.2rem;
-    background-color: #39b54a;
+    background-color: #FFFFFF;
     position: absolute;
     right: 7.2rem;
     bottom: 0;
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## home social 
+/* -------------------------------------------------------------------
+ * ## home social
  * ------------------------------------------------------------------- */
 .home-social {
     font-family: "montserrat-regular", sans-serif;
@@ -1983,7 +1986,7 @@ html.no-csstransitions .home-content__main {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## home animations
  * ------------------------------------------------------------------- */
 
@@ -2048,7 +2051,7 @@ html.no-csstransitions .home-content__main {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * home
  * ------------------------------------------------------------------- */
@@ -2194,10 +2197,10 @@ html.no-csstransitions .home-content__main {
 
 
 /* ===================================================================
- * # about
+ * # applications
  *
  * ------------------------------------------------------------------- */
-.s-about {
+.s-applications {
     padding-top: 16.2rem;
     padding-bottom: 9rem;
     background-color: #39b54a;
@@ -2205,11 +2208,11 @@ html.no-csstransitions .home-content__main {
     position: relative;
 }
 
-.s-about .section-header.has-bottom-sep::before {
+.s-applications .section-header.has-bottom-sep::before {
     background-color: rgba(255, 255, 255, 0.25);
 }
 
-.about-desc {
+.applications-desc {
     font-size: 2.4rem;
     line-height: 1.75;
     text-align: center;
@@ -2217,10 +2220,10 @@ html.no-csstransitions .home-content__main {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## about stats
+/* -------------------------------------------------------------------
+ * ## applications stats
  * ------------------------------------------------------------------- */
-.about-stats {
+.applications-stats {
     text-align: center;
 }
 
@@ -2257,31 +2260,31 @@ html.no-csstransitions .home-content__main {
     position: relative;
 }
 
-.about__line {
+.product__line {
     display: block;
     width: 2px;
     height: 10.2rem;
-    background-color: #FFFFFF;
+    background-color: #39b54a;
     position: absolute;
     right: 7.2rem;
     top: 0;
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
- * about
+ * applications
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 1200px) {
-    .about-desc {
+    .applications-desc {
         font-size: 2.2rem;
         max-width: 940px;
     }
-    .about-stats {
+    .applications-stats {
         padding-top: 3rem;
         padding-bottom: 3.9rem;
     }
-    .about-stats {
+    .applications-stats {
         max-width: 800px;
     }
     .stats__col {
@@ -2296,7 +2299,7 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width: 800px) {
-    .about-desc {
+    .applications-desc {
         font-size: 2rem;
         max-width: 600px;
     }
@@ -2309,19 +2312,19 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width: 700px) {
-    .about__line {
+    .product__line {
         right: 5.5rem;
     }
 }
 
 @media only screen and (max-width: 600px) {
-    .s-about {
+    .s-applications {
         padding-top: 12rem;
     }
-    .about-desc {
+    .applications-desc {
         font-size: 1.9rem;
     }
-    .about-stats {
+    .applications-stats {
         padding-top: 0;
     }
     .stats__col {
@@ -2347,13 +2350,13 @@ html.no-csstransitions .home-content__main {
     .stats__col:nth-child(n) {
         border: none;
     }
-    .about__line {
+    .product__line {
         height: 7.2rem;
     }
 }
 
 @media only screen and (max-width: 400px) {
-    .about-desc {
+    .applications-desc {
         font-size: 1.8rem;
     }
     .stats__count {
@@ -2364,10 +2367,10 @@ html.no-csstransitions .home-content__main {
 
 
 /* ===================================================================
- * # services
+ * # product
  *
  * ------------------------------------------------------------------- */
-.s-services {
+.s-product {
     padding-top: 16.2rem;
     padding-bottom: 13.2rem;
     background-color: #FFFFFF;
@@ -2376,34 +2379,34 @@ html.no-csstransitions .home-content__main {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## services list
+/* -------------------------------------------------------------------
+ * ## product list
  * ------------------------------------------------------------------- */
-.services-list {
+.product-list {
     margin-top: 6rem;
 }
 
-.services-list .service-item {
+.product-list .service-item {
     margin-bottom: .9rem;
 }
 
-.services-list .service-item h3 {
+.product-list .service-item h3 {
     margin-top: 0;
 }
 
-.services-list .service-item:nth-child(2n+1) {
+.product-list .service-item:nth-child(2n+1) {
     padding-right: 50px;
 }
 
-.services-list .service-item:nth-child(2n+2) {
+.product-list .service-item:nth-child(2n+2) {
     padding-left: 50px;
 }
 
-.services-list .service-text {
+.product-list .service-text {
     margin-left: 7.8rem;
 }
 
-.services-list .service-icon {
+.product-list .service-icon {
     float: left;
     color: #39b54a;
     font-size: 4.8rem;
@@ -2411,51 +2414,51 @@ html.no-csstransitions .home-content__main {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
- * services
+ * product
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 1200px) {
-    .services-list {
+    .product-list {
         max-width: 1000px;
     }
-    .services-list .service-item:nth-child(2n+1) {
+    .product-list .service-item:nth-child(2n+1) {
         padding-right: 30px;
     }
-    .services-list .service-item:nth-child(2n+2) {
+    .product-list .service-item:nth-child(2n+2) {
         padding-left: 30px;
     }
 }
 
 @media only screen and (max-width: 1000px) {
-    .services-list h3 {
+    .product-list h3 {
         font-size: 2.5rem;
     }
-    .services-list .service-item:nth-child(2n+1) {
+    .product-list .service-item:nth-child(2n+1) {
         padding-right: 20px;
     }
-    .services-list .service-item:nth-child(2n+2) {
+    .product-list .service-item:nth-child(2n+2) {
         padding-left: 20px;
     }
 }
 
 @media only screen and (max-width: 800px) {
-    .services-list {
+    .product-list {
         margin-top: 4.2rem;
         max-width: 500px;
         text-align: center;
     }
-    .services-list .service-item:nth-child(n) {
+    .product-list .service-item:nth-child(n) {
         padding-right: 15px;
         padding-left: 15px;
     }
-    .services-list h3 {
+    .product-list h3 {
         font-size: 3rem;
     }
-    .services-list .service-text {
+    .product-list .service-text {
         margin-left: 0;
     }
-    .services-list .service-icon {
+    .product-list .service-icon {
         font-size: 4.5rem;
         float: none;
         margin-top: 0;
@@ -2463,28 +2466,151 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width: 600px) {
-    .s-services {
+    .s-product {
         padding-top: 12rem;
     }
-    .services-list .service-item:nth-child(n) {
+    .product-list .service-item:nth-child(n) {
         padding-right: 10px;
         padding-left: 10px;
     }
-    .services-list h3 {
+    .product-list h3 {
         font-size: 2.5rem;
     }
 }
 
 @media only screen and (max-width: 400px) {
-    .services-list .service-item:nth-child(n) {
+    .product-list .service-item:nth-child(n) {
         padding-right: 0;
         padding-left: 0;
     }
-    .services-list h3 {
+    .product-list h3 {
         font-size: 2.5rem;
     }
 }
 
+
+
+/* ===================================================================
+ * # about
+ *
+ * ------------------------------------------------------------------- */
+.s-about {
+    padding-top: 16.2rem;
+    padding-bottom: 13.2rem;
+    background-color: #FFFFFF;
+    color: #757575;
+    position: relative;
+}
+
+
+/* -------------------------------------------------------------------
+ * ## about list
+ * ------------------------------------------------------------------- */
+.about-list {
+    margin-top: 6rem;
+}
+
+.about-list .service-item {
+    margin-bottom: .9rem;
+}
+
+.about-list .service-item h3 {
+    margin-top: 0;
+}
+
+.about-list .service-item:nth-child(2n+1) {
+    padding-right: 50px;
+}
+
+.about-list .service-item:nth-child(2n+2) {
+    padding-left: 50px;
+}
+
+.about-list .service-text {
+    margin-left: 7.8rem;
+}
+
+.about-list .service-icon {
+    float: left;
+    color: #39b54a;
+    font-size: 4.8rem;
+    margin-top: -.6rem;
+}
+
+
+/* -------------------------------------------------------------------
+ * responsive:
+ * about
+ * ------------------------------------------------------------------- */
+@media only screen and (max-width: 1200px) {
+    .about-list {
+        max-width: 1000px;
+    }
+    .about-list .service-item:nth-child(2n+1) {
+        padding-right: 30px;
+    }
+    .about-list .service-item:nth-child(2n+2) {
+        padding-left: 30px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .about-list h3 {
+        font-size: 2.5rem;
+    }
+    .about-list .service-item:nth-child(2n+1) {
+        padding-right: 20px;
+    }
+    .about-list .service-item:nth-child(2n+2) {
+        padding-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .about-list {
+        margin-top: 4.2rem;
+        max-width: 500px;
+        text-align: center;
+    }
+    .about-list .service-item:nth-child(n) {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .about-list h3 {
+        font-size: 3rem;
+    }
+    .about-list .service-text {
+        margin-left: 0;
+    }
+    .about-list .service-icon {
+        font-size: 4.5rem;
+        float: none;
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .s-about {
+        padding-top: 12rem;
+    }
+    .about-list .service-item:nth-child(n) {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .about-list h3 {
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .about-list .service-item:nth-child(n) {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .about-list h3 {
+        font-size: 2.5rem;
+    }
+}
 
 
 /* ===================================================================
@@ -2509,7 +2635,7 @@ html.no-csstransitions .home-content__main {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## bricks/masonry
  * ------------------------------------------------------------------- */
 .masonry:after {
@@ -2663,7 +2789,7 @@ html.no-csstransitions .home-content__main {
 }
 
 
-/* on hover 
+/* on hover
  * ----------------------------------------------- */
 .item-folio:hover .item-folio__thumb a::before {
     opacity: 1;
@@ -2694,7 +2820,7 @@ html.no-csstransitions .home-content__main {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * works
  * ------------------------------------------------------------------- */
@@ -2738,7 +2864,7 @@ html.no-csstransitions .home-content__main {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## slider
  * ------------------------------------------------------------------- */
 .clients-outer {
@@ -2761,7 +2887,7 @@ html.no-csstransitions .home-content__main {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## testimonials
  * ------------------------------------------------------------------- */
 .clients-testimonials {
@@ -2809,7 +2935,7 @@ html.no-csstransitions .home-content__main {
     margin: 0 auto 1.2rem auto;
 }
 
-.clients-testimonials .testimonials__name, 
+.clients-testimonials .testimonials__name,
 .clients-testimonials .testimonials__pos {
     display: block;
 }
@@ -2860,7 +2986,7 @@ html.no-csstransitions .home-content__main {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * clients
  * ------------------------------------------------------------------- */
@@ -2928,7 +3054,7 @@ html.no-csstransitions .home-content__main {
 
 
 /* ===================================================================
- * # contact 
+ * # contact
  *
  * ------------------------------------------------------------------- */
 .s-contact {
@@ -3135,7 +3261,7 @@ html.no-csstransitions .home-content__main {
     color: white;
 }
 
-.contact-social li a:hover, 
+.contact-social li a:hover,
 .contact-social li a:focus {
     color: #39b54a;
 }
@@ -3144,7 +3270,7 @@ html.no-csstransitions .home-content__main {
     margin: 0;
 }
 
-.message-warning, 
+.message-warning,
 .message-success {
     display: none;
     background: #111111;
@@ -3201,8 +3327,8 @@ html.no-csstransitions .home-content__main {
 }
 
 
-/* --------------------------------------------------------------- 
- * ## loader animation 
+/* ---------------------------------------------------------------
+ * ## loader animation
  * --------------------------------------------------------------- */
 .s-loader {
     margin: 1.2rem auto 3rem;
@@ -3261,7 +3387,7 @@ html.no-csstransitions .home-content__main {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * contact
  * ------------------------------------------------------------------- */
@@ -3360,7 +3486,7 @@ footer .row {
 }
 
 
-/* --------------------------------------------------------------- 
+/* ---------------------------------------------------------------
  * ## footer main
  * --------------------------------------------------------------- */
 .footer-main {
@@ -3486,7 +3612,7 @@ footer .row {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## go to top
  * ------------------------------------------------------------------- */
 .go-top {
@@ -3523,7 +3649,7 @@ footer .row {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * footer
  * ------------------------------------------------------------------- */
