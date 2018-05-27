@@ -3457,7 +3457,6 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 footer {
-    padding: 9rem 0 6rem;
     font-family: "montserrat-light", sans-serif;
     font-size: 15px;
     line-height: 2;
@@ -3499,23 +3498,6 @@ footer .row {
 
 .footer-main .right {
     padding-left: 40px;
-}
-
-.footer-logo {
-    display: block;
-    margin: -.6rem 0 3.6rem 0;
-    padding: 0;
-    outline: 0;
-    border: none;
-    width: 85px;
-    height: 28px;
-    background: url("../images/logo-footer.png") no-repeat center;
-    background-size: 85px 28px;
-    font: 0/0 a;
-    text-shadow: none;
-    color: transparent;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
 }
 
 .footer-subscribe .subscribe-form {
@@ -3591,7 +3573,8 @@ footer .row {
  * ## footer bottom
  * --------------------------------------------------------------- */
 .footer-bottom {
-    margin-top: 5.4rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     text-align: center;
     font-size: 14px;
 }
