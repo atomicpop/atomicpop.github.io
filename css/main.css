@@ -2206,7 +2206,6 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 .s-applications {
     width: 100%;
-    height: 100%;
     padding-top: 9rem;
     padding-bottom: 9rem;
     background-color: #39b54a;
@@ -2378,7 +2377,6 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 .s-product {
     width: 100%;
-    height: 100%;
     padding-top: 9rem;
     padding-bottom: 9rem;
     background-color: #FFFFFF;
