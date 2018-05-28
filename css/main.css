@@ -2869,7 +2869,6 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 .clients-outer {
     margin-top: 3.6rem;
-    padding-bottom: 9rem;
     text-align: center;
     position: relative;
 }
@@ -3059,7 +3058,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 .s-contact {
     background-color: #151515;
-    background-image: url("../images/contact-bg.jpg");
+    background-image: url("../images/coast-guard.jpg");
     background-repeat: no-repeat;
     background-position: center, center;
     padding-top: 15rem;
