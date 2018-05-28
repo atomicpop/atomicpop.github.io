@@ -2537,6 +2537,7 @@ html.no-csstransitions .home-content__main {
 .about-list .service-text {
     margin-left: 7.8rem;
     text-align: justify;
+    font-size: 1.6rem
 }
 
 .about-list .service-icon {
