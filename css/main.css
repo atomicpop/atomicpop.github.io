@@ -2207,7 +2207,6 @@ html.no-csstransitions .home-content__main {
 .s-applications {
     width: 100%;
     padding-top: 9rem;
-    padding-bottom: 9rem;
     background-color: #39b54a;
     color: #010507;
     position: relative;
@@ -2247,7 +2246,7 @@ html.no-csstransitions .home-content__main {
 
 .stats__count {
     font-family: "montserrat-bold", sans-serif;
-    font-size: 8.4rem;
+    font-size: 4rem;
     line-height: 1;
     color: #FFFFFF;
     position: relative;
@@ -2309,7 +2308,7 @@ html.no-csstransitions .home-content__main {
         max-width: 600px;
     }
     .stats__count {
-        font-size: 8rem;
+        font-size: 4rem;
     }
     .stats h5 {
         margin-top: 1.2rem;
@@ -2365,7 +2364,7 @@ html.no-csstransitions .home-content__main {
         font-size: 1.8rem;
     }
     .stats__count {
-        font-size: 7.8rem;
+        font-size: 4rem;
     }
 }
 
